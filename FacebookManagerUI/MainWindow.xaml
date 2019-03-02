@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <TextBox></TextBox>
+        <Button Content="Set Token" HorizontalAlignment="Left" Margin="10,37,0,0" VerticalAlignment="Top" Width="76" Click="Button_Click"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="10,9,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="631"/>
+        <TextBlock x:Name="TextBlockAnswer" HorizontalAlignment="Left" Margin="10,224,0,0" TextWrapping="Wrap" Text="Ответ" VerticalAlignment="Top" Height="167" Width="661"/>
+        <Button Content="Get name" HorizontalAlignment="Left" Margin="11,62,0,0" VerticalAlignment="Top" Width="75"/>
     </Grid>
 </Window>
